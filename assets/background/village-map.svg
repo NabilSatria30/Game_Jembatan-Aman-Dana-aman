@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Peta desa dan sungai untuk game Jembatan Aman Dana Aman">
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#bdefff"/>
+      <stop offset=".52" stop-color="#e8f8ef"/>
+      <stop offset="1" stop-color="#ffd99d"/>
+    </linearGradient>
+    <linearGradient id="river" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#39bdd7"/>
+      <stop offset="1" stop-color="#116ba8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#sky)"/>
+  <path d="M0 444c250 46 420-44 644 8 233 54 394-34 588-4 142 22 239 80 368 55v397H0z" fill="url(#river)"/>
+  <g opacity=".38" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round">
+    <path d="M-60 512c280-60 410 54 680 2 236-46 364-27 600 36 161 42 256-9 441-13"/>
+    <path d="M-50 610c239 31 373-36 585-9 202 25 331 74 544 16 151-42 329 4 579 41"/>
+    <path d="M-46 722c260-12 396 48 619-2 240-54 379-3 554 47 160 45 291-20 529 1"/>
+  </g>
+  <path d="M0 575h430c23 0 44 16 50 38l22 81H0z" fill="#73bd65"/>
+  <path d="M1120 578h480v316h-480l-33-118c-18-65-17-132 3-197z" fill="#74bd66"/>
+  <path d="M0 598h438c21 0 39 14 44 34l6 24H0zM1125 598h475v53h-490z" fill="#579d52"/>
+  <g>
+    <path d="M82 514h92v77H82z" fill="#f5b642"/>
+    <path d="M68 516l60-43 60 43z" fill="#964b35"/>
+    <rect x="101" y="544" width="18" height="19" fill="#fff" opacity=".76"/>
+    <rect x="139" y="544" width="18" height="19" fill="#fff" opacity=".76"/>
+    <path d="M1380 501h93v84h-93z" fill="#18a999"/>
+    <path d="M1362 504l65-48 65 48z" fill="#8f4435"/>
+    <rect x="1402" y="536" width="19" height="20" fill="#fff" opacity=".76"/>
+    <rect x="1442" y="536" width="19" height="20" fill="#fff" opacity=".76"/>
+    <path d="M1245 542h74v61h-74z" fill="#e84d5b"/>
+    <path d="M1234 544l48-35 48 35z" fill="#8f4435"/>
+  </g>
+  <g opacity=".78" fill="#fff">
+    <ellipse cx="222" cy="140" rx="80" ry="24"/>
+    <circle cx="184" cy="132" r="28"/>
+    <circle cx="240" cy="124" r="34"/>
+    <ellipse cx="1025" cy="110" rx="92" ry="27"/>
+    <circle cx="980" cy="101" r="31"/>
+    <circle cx="1049" cy="94" r="38"/>
+    <ellipse cx="1322" cy="194" rx="76" ry="21"/>
+    <circle cx="1290" cy="187" r="25"/>
+    <circle cx="1340" cy="180" r="31"/>
+  </g>
+</svg>

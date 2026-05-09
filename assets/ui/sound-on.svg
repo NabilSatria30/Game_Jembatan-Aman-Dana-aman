@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Musik aktif">
+  <path d="M8 25v14h11l14 12V13L19 25z" fill="#fff"/>
+  <path d="M40 24c4 4 4 12 0 16" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round"/>
+  <path d="M47 17c8 8 8 22 0 30" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round" opacity=".82"/>
+</svg>

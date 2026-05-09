@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 115" role="img" aria-label="Rumah desa hijau toska">
+  <ellipse cx="76" cy="106" rx="58" ry="8" fill="#10202d" opacity=".14"/>
+  <rect x="24" y="45" width="102" height="61" rx="4" fill="#18a999"/>
+  <path d="M8 47 76 10l66 37z" fill="#9c4f36"/>
+  <rect x="62" y="72" width="25" height="34" fill="#64503b"/>
+  <rect x="38" y="61" width="22" height="22" fill="#c7fff3"/>
+  <rect x="94" y="61" width="22" height="22" fill="#c7fff3"/>
+  <rect x="31" y="43" width="90" height="8" fill="#0f7f78" opacity=".5"/>
+</svg>

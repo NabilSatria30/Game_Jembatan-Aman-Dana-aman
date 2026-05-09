@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 96">
+  <defs>
+    <g id="worker">
+      <ellipse cx="48" cy="76" rx="34" ry="9" fill="#10202d" opacity=".16"/>
+      <rect x="20" y="42" width="56" height="20" rx="8" fill="#10202d"/>
+      <rect x="28" y="24" width="40" height="24" rx="8" fill="#2675ff"/>
+      <circle cx="31" cy="69" r="8" fill="#f5b642"/>
+      <circle cx="65" cy="69" r="8" fill="#f5b642"/>
+      <text x="48" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="900" fill="#fff">ANTI</text>
+    </g>
+  </defs>
+  <use href="#worker" x="0"/>
+  <use href="#worker" x="96" transform="translate(96 0) skewX(-4) translate(-96 0)"/>
+  <use href="#worker" x="192"/>
+  <use href="#worker" x="288" transform="translate(288 0) skewX(4) translate(-288 0)"/>
+</svg>
