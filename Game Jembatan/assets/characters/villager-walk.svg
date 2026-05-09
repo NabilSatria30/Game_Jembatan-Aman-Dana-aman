@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 224" role="img" aria-label="Sprite sheet warga desa normal" shape-rendering="geometricPrecision">
+  <defs>
+    <style>
+      .shadow{fill:#10202d;opacity:.15}.ink{fill:#17212b}.hair{fill:#242026}.skin{fill:#b97855}.skin2{fill:#a46849}.shade{fill:#87543d}.hat{fill:#f3cf71}.hatDark{fill:#c99035}.shirt{fill:#6d4a34}.shirtDark{fill:#4b3022}.inner{fill:#68776e}.pants{fill:#28506f}.pantsDark{fill:#19344b}.shoe{fill:#20242a}.veil{fill:#73508b}.veilDark{fill:#563967}.dress{fill:#2a9078}.gold{fill:#f0b64e}.eye{fill:#f7e9d4}
+    </style>
+  </defs>
+
+  <g id="male-idle-1">
+    <ellipse class="shadow" cx="48" cy="102" rx="24" ry="7"/>
+    <path class="hat" d="M28 28h40L48 12z"/><rect class="hatDark" x="23" y="28" width="50" height="5" rx="2"/>
+    <rect class="hair" x="31" y="30" width="33" height="8" rx="3"/><rect class="skin" x="32" y="36" width="31" height="23" rx="6"/><rect class="shade" x="32" y="38" width="5" height="17"/><rect class="hair" x="58" y="37" width="6" height="8"/>
+    <rect class="eye" x="39" y="45" width="5" height="4"/><rect class="ink" x="40" y="46" width="3" height="3"/><rect class="eye" x="54" y="45" width="5" height="4"/><rect class="ink" x="55" y="46" width="3" height="3"/><rect class="shade" x="48" y="49" width="5" height="5"/><rect class="ink" x="44" y="55" width="12" height="3"/>
+    <rect class="shirt" x="27" y="59" width="39" height="36" rx="8"/><rect class="shirtDark" x="28" y="64" width="7" height="28"/><rect class="shirtDark" x="58" y="64" width="7" height="28"/><rect class="inner" x="39" y="61" width="16" height="32"/><rect class="ink" x="45" y="61" width="4" height="32"/>
+    <rect class="skin" x="20" y="76" width="10" height="13" rx="4"/><rect class="skin" x="66" y="76" width="10" height="13" rx="4"/>
+    <rect class="pants" x="36" y="92" width="11" height="19"/><rect class="pants" x="51" y="92" width="11" height="19"/><rect class="shoe" x="31" y="108" width="17" height="5"/><rect class="shoe" x="51" y="108" width="18" height="5"/>
+  </g>
+  <g id="female-idle-1">
+    <ellipse class="shadow" cx="48" cy="102" rx="24" ry="7"/>
+    <rect class="veilDark" x="28" y="24" width="40" height="42" rx="13"/><rect class="veil" x="31" y="25" width="34" height="14" rx="7"/><rect class="skin2" x="34" y="36" width="29" height="23" rx="6"/><rect class="shade" x="34" y="38" width="4" height="17"/>
+    <rect class="eye" x="41" y="45" width="5" height="4"/><rect class="ink" x="42" y="46" width="3" height="3"/><rect class="eye" x="55" y="45" width="5" height="4"/><rect class="ink" x="56" y="46" width="3" height="3"/><rect class="shade" x="49" y="49" width="4" height="5"/><rect class="ink" x="45" y="55" width="11" height="3"/>
+    <rect class="dress" x="33" y="59" width="30" height="38" rx="8"/><rect class="gold" x="36" y="64" width="24" height="5"/><rect class="veil" x="26" y="57" width="10" height="34" rx="5"/><rect class="veil" x="60" y="57" width="10" height="34" rx="5"/>
+    <rect class="skin2" x="21" y="77" width="10" height="13" rx="4"/><rect class="skin2" x="66" y="77" width="10" height="13" rx="4"/>
+    <rect class="pantsDark" x="38" y="94" width="9" height="17"/><rect class="pantsDark" x="52" y="94" width="9" height="17"/><rect class="shoe" x="33" y="108" width="16" height="5"/><rect class="shoe" x="51" y="108" width="17" height="5"/>
+  </g>
+
+  <g id="male-run-1">
+    <ellipse class="shadow" cx="50" cy="102" rx="25" ry="7"/><path class="hat" d="M33 28h40L53 12z"/><rect class="hatDark" x="28" y="28" width="50" height="5" rx="2"/><rect class="hair" x="36" y="30" width="33" height="8" rx="3"/><rect class="skin" x="37" y="36" width="31" height="23" rx="6"/><rect class="shade" x="37" y="38" width="5" height="17"/><rect class="hair" x="63" y="37" width="6" height="8"/><rect class="eye" x="44" y="45" width="5" height="4"/><rect class="ink" x="45" y="46" width="3" height="3"/><rect class="eye" x="59" y="45" width="5" height="4"/><rect class="ink" x="60" y="46" width="3" height="3"/><rect class="shade" x="53" y="49" width="5" height="5"/><rect class="ink" x="49" y="55" width="12" height="3"/>
+    <path class="shirt" d="M29 59h38l-3 36H26z"/><rect class="inner" x="40" y="62" width="16" height="30"/><rect class="ink" x="46" y="62" width="4" height="30"/><path class="shirtDark" d="M29 64h8l-5 27h-8z"/><path class="shirtDark" d="M59 63h9l5 25h-9z"/><rect class="skin" x="18" y="84" width="10" height="10" rx="4"/><rect class="skin" x="70" y="78" width="10" height="10" rx="4"/>
+    <path class="pants" d="M38 91h11l-14 18H24z"/><path class="pants" d="M55 91h11l15 18H68z"/><rect class="shoe" x="21" y="106" width="19" height="6"/><rect class="shoe" x="64" y="107" width="20" height="6"/>
+  </g>
+  <g id="male-run-2">
+    <ellipse class="shadow" cx="50" cy="102" rx="25" ry="7"/><path class="hat" d="M33 27h40L53 11z"/><rect class="hatDark" x="28" y="27" width="50" height="5" rx="2"/><rect class="hair" x="36" y="29" width="33" height="8" rx="3"/><rect class="skin" x="37" y="35" width="31" height="23" rx="6"/><rect class="shade" x="37" y="37" width="5" height="17"/><rect class="hair" x="63" y="36" width="6" height="8"/><rect class="eye" x="44" y="44" width="5" height="4"/><rect class="ink" x="45" y="45" width="3" height="3"/><rect class="eye" x="59" y="44" width="5" height="4"/><rect class="ink" x="60" y="45" width="3" height="3"/><rect class="shade" x="53" y="48" width="5" height="5"/><rect class="ink" x="49" y="54" width="12" height="3"/>
+    <path class="shirt" d="M29 58h38l-2 37H27z"/><rect class="inner" x="40" y="61" width="16" height="31"/><rect class="ink" x="46" y="61" width="4" height="31"/><path class="shirtDark" d="M29 64h8l-2 26h-9z"/><path class="shirtDark" d="M58 63h8l8 23h-9z"/><rect class="skin" x="23" y="82" width="10" height="10" rx="4"/><rect class="skin" x="67" y="82" width="10" height="10" rx="4"/>
+    <path class="pants" d="M39 91h11l-8 19H31z"/><path class="pants" d="M54 91h11l8 19H61z"/><rect class="shoe" x="27" y="107" width="18" height="5"/><rect class="shoe" x="58" y="107" width="19" height="5"/>
+  </g>
+  <g id="male-run-3">
+    <ellipse class="shadow" cx="50" cy="102" rx="25" ry="7"/><path class="hat" d="M33 28h40L53 12z"/><rect class="hatDark" x="28" y="28" width="50" height="5" rx="2"/><rect class="hair" x="36" y="30" width="33" height="8" rx="3"/><rect class="skin" x="37" y="36" width="31" height="23" rx="6"/><rect class="shade" x="37" y="38" width="5" height="17"/><rect class="hair" x="63" y="37" width="6" height="8"/><rect class="eye" x="44" y="45" width="5" height="4"/><rect class="ink" x="45" y="46" width="3" height="3"/><rect class="eye" x="59" y="45" width="5" height="4"/><rect class="ink" x="60" y="46" width="3" height="3"/><rect class="shade" x="53" y="49" width="5" height="5"/><rect class="ink" x="49" y="55" width="12" height="3"/>
+    <path class="shirt" d="M30 59h37l-1 36H29z"/><rect class="inner" x="41" y="62" width="16" height="30"/><rect class="ink" x="47" y="62" width="4" height="30"/><path class="shirtDark" d="M30 65h8l1 25h-9z"/><path class="shirtDark" d="M59 64h8l4 24h-8z"/><rect class="skin" x="30" y="86" width="10" height="10" rx="4"/><rect class="skin" x="66" y="86" width="10" height="10" rx="4"/>
+    <rect class="pants" x="40" y="91" width="11" height="20"/><rect class="pants" x="55" y="91" width="11" height="20"/><rect class="shoe" x="36" y="108" width="18" height="5"/><rect class="shoe" x="54" y="108" width="18" height="5"/>
+  </g>
+  <g id="male-run-4">
+    <ellipse class="shadow" cx="50" cy="102" rx="25" ry="7"/><path class="hat" d="M33 27h40L53 11z"/><rect class="hatDark" x="28" y="27" width="50" height="5" rx="2"/><rect class="hair" x="36" y="29" width="33" height="8" rx="3"/><rect class="skin" x="37" y="35" width="31" height="23" rx="6"/><rect class="shade" x="37" y="37" width="5" height="17"/><rect class="hair" x="63" y="36" width="6" height="8"/><rect class="eye" x="44" y="44" width="5" height="4"/><rect class="ink" x="45" y="45" width="3" height="3"/><rect class="eye" x="59" y="44" width="5" height="4"/><rect class="ink" x="60" y="45" width="3" height="3"/><rect class="shade" x="53" y="48" width="5" height="5"/><rect class="ink" x="49" y="54" width="12" height="3"/>
+    <path class="shirt" d="M29 58h38l-3 37H26z"/><rect class="inner" x="40" y="61" width="16" height="31"/><rect class="ink" x="46" y="61" width="4" height="31"/><path class="shirtDark" d="M29 64h8l-6 25h-8z"/><path class="shirtDark" d="M59 64h9l-2 26h-8z"/><rect class="skin" x="29" y="84" width="10" height="10" rx="4"/><rect class="skin" x="63" y="84" width="10" height="10" rx="4"/>
+    <path class="pants" d="M39 91h11l-9 19H29z"/><path class="pants" d="M55 91h11l15 17H70z"/><rect class="shoe" x="35" y="107" width="20" height="5"/><rect class="shoe" x="64" y="105" width="19" height="6"/>
+  </g>
+  <g id="male-run-5"><use href="#male-run-2"/></g>
+  <g id="male-run-6"><use href="#male-run-3"/></g>
+
+  <use href="#male-idle-1" x="0"/><use href="#male-idle-1" x="96" y="1"/><use href="#male-idle-1" x="192"/><use href="#male-idle-1" x="288" y="-1"/>
+  <use href="#male-run-1" x="384"/><use href="#male-run-2" x="480"/><use href="#male-run-3" x="576"/><use href="#male-run-4" x="672"/><use href="#male-run-5" x="768"/><use href="#male-run-6" x="864"/>
+  <use href="#female-idle-1" x="0" y="112"/><use href="#female-idle-1" x="96" y="113"/><use href="#female-idle-1" x="192" y="112"/><use href="#female-idle-1" x="288" y="111"/>
+  <use href="#female-idle-1" x="384" y="112"/><use href="#female-idle-1" x="480" y="113"/><use href="#female-idle-1" x="576" y="112"/><use href="#female-idle-1" x="672" y="111"/><use href="#female-idle-1" x="768" y="112"/><use href="#female-idle-1" x="864" y="113"/>
+</svg>

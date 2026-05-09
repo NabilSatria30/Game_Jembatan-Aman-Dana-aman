@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-label="Balok baja legal">
+  <defs>
+    <linearGradient id="steel" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#d8e5ec"/>
+      <stop offset=".45" stop-color="#7893a5"/>
+      <stop offset="1" stop-color="#2f4f61"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="51" cy="61" rx="35" ry="22" fill="#10202d" opacity=".16"/>
+  <path d="M18 27h61v12H56v18h23v12H18V57h23V39H18z" fill="url(#steel)"/>
+  <path d="M20 29h57M20 58h57" stroke="#f8fbff" stroke-width="4" stroke-linecap="round" opacity=".65"/>
+  <path d="M43 39h11v18H43z" fill="#2a4655" opacity=".55"/>
+  <circle cx="28" cy="34" r="3" fill="#314b58"/>
+  <circle cx="68" cy="34" r="3" fill="#314b58"/>
+  <circle cx="28" cy="63" r="3" fill="#314b58"/>
+  <circle cx="68" cy="63" r="3" fill="#314b58"/>
+</svg>

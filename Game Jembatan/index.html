@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jembatan Aman, Dana Aman</title>
+  <link rel="stylesheet" href="assets/fonts/game-font.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-shell">
+    <canvas id="gameCanvas" aria-label="Arena permainan Jembatan Aman, Dana Aman"></canvas>
+
+    <div class="hud" id="hud" aria-live="polite">
+      <div class="hud-card">
+        <span class="hud-label">Skor</span>
+        <strong id="scoreText">0</strong>
+      </div>
+      <div class="hud-card">
+        <span class="hud-label">Level</span>
+        <strong id="levelText">1/5</strong>
+      </div>
+      <div class="hud-card">
+        <span class="hud-label">Dana</span>
+        <strong id="budgetText">100</strong>
+      </div>
+      <div class="hud-card">
+        <span class="hud-label">Waktu</span>
+        <strong id="timeText">60</strong>
+      </div>
+      <div class="hud-card">
+        <span class="hud-label">Integritas</span>
+        <strong id="integrityText">100%</strong>
+      </div>
+      <div class="hud-card danger-meter">
+        <span class="hud-label">Progres</span>
+        <div class="meter">
+          <i id="strengthFill"></i>
+        </div>
+      </div>
+      <button class="icon-button" id="pauseButton" type="button" aria-label="Pause">
+        <span></span><span></span>
+      </button>
+      <button class="icon-button music-button" id="musicButton" type="button" aria-label="Musik aktif" aria-pressed="true"></button>
+    </div>
+
+    <div class="choice-panel mission-panel" id="choicePanel">
+      <div class="choice-copy">
+        <span id="roundText">Misi Aktif</span>
+        <strong id="levelGoalText">Bangun jembatan sampai 100%</strong>
+      </div>
+      <div class="mission-list">
+        <span><b class="item-hint material-hint"></b>Baja legal: progres naik</span>
+        <span><b class="item-hint cement-hint"></b>Semen standar: progres naik</span>
+        <span><b class="item-hint bribe-hint"></b>Suap dana: progres turun</span>
+        <span><b class="item-hint fake-hint"></b>Material palsu: progres turun</span>
+      </div>
+    </div>
+
+    <div class="mobile-controls" id="mobileControls">
+      <button type="button" data-action="left" aria-label="Bergerak ke kiri">&lt;</button>
+      <button type="button" data-action="right" aria-label="Bergerak ke kanan">&gt;</button>
+    </div>
+
+    <section class="overlay active" id="startScreen">
+      <div class="menu-panel">
+        <div class="brand-mark"></div>
+        <p class="eyebrow">Simulasi Etika Infrastruktur</p>
+        <h1>Jembatan Aman, Dana Aman</h1>
+        <p class="menu-text">Selesaikan 5 level proyek jembatan. Warga berjalan dari awal sebagai batas waktu. Ambil baja legal dan semen standar sebelum mereka sampai ke bagian yang belum dibangun.</p>
+        <div class="menu-actions">
+          <button class="primary-button start-game-button" id="startButton" type="button">
+            <span class="play-icon" aria-hidden="true"></span>
+            Mulai Bangun
+          </button>
+          <button class="ghost-button" id="howButton" type="button">Cara Main</button>
+        </div>
+        <div class="mini-stats">
+          <span>High Score</span>
+          <strong id="startHighScore">0</strong>
+        </div>
+      </div>
+    </section>
+
+    <section class="overlay" id="storyScreen">
+      <div class="menu-panel story-panel">
+        <p class="eyebrow">Cerita</p>
+        <h2>Desa Butuh Jembatan Aman</h2>
+        <p class="menu-text">Sungai memisahkan rumah warga dari sekolah, pasar, dan pos kesehatan. Pemerintah desa memberi dana untuk membangun jembatan baru, tetapi proyeknya harus selesai sebelum warga yang berjalan sampai ke ujung jembatan.</p>
+        <div class="story-steps">
+          <div><span>1</span><strong>Bangun dengan material aman</strong><small>Ambil baja legal dan semen standar agar progres jembatan naik.</small></div>
+          <div><span>2</span><strong>Tolak korupsi proyek</strong><small>Suap dana dan material palsu membuat progres turun serta merusak integritas.</small></div>
+          <div><span>3</span><strong>Lindungi warga</strong><small>Jika warga sudah menyeberang sampai bagian yang belum jadi, level gagal karena jembatan belum aman.</small></div>
+        </div>
+        <div class="menu-actions">
+          <button class="primary-button start-game-button" id="storyStartButton" type="button">
+            <span class="play-icon" aria-hidden="true"></span>
+            Mulai Game
+          </button>
+          <button class="ghost-button" id="closeStoryButton" type="button">Kembali</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="overlay" id="pauseScreen">
+      <div class="menu-panel compact">
+        <p class="eyebrow">Proyek Dijeda</p>
+        <h2>Pause</h2>
+        <p class="menu-text">Proyek berhenti sebentar. Keputusan bersih membuat jembatan tetap kuat.</p>
+        <div class="menu-actions">
+          <button class="primary-button" id="resumeButton" type="button">Lanjutkan</button>
+          <button class="ghost-button" id="restartFromPauseButton" type="button">Restart</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="overlay" id="gameOverScreen">
+      <div class="menu-panel compact">
+        <p class="eyebrow" id="resultLabel">Evaluasi Proyek</p>
+        <h2 id="resultTitle">Jembatan Selesai</h2>
+        <p class="menu-text" id="resultMessage"></p>
+        <div class="result-grid">
+          <div><span>Skor</span><strong id="finalScore">0</strong></div>
+          <div><span>High Score</span><strong id="finalHighScore">0</strong></div>
+        </div>
+        <div class="menu-actions">
+          <button class="primary-button" id="restartButton" type="button">Main Lagi</button>
+          <button class="ghost-button" id="backToStartButton" type="button">Menu Awal</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="overlay" id="howScreen">
+      <div class="menu-panel compact">
+        <p class="eyebrow">Cara Main</p>
+        <h2>Bangun, Uji, Jaga</h2>
+        <p class="menu-text">Gunakan <strong>A/D</strong> atau <strong>kiri/kanan</strong> untuk bergerak. Di HP, tahan tombol kiri/kanan. Ambil baja legal dan semen standar. Hindari suap dana dan material palsu. Jika warga yang lewat mencapai bagian jembatan yang belum jadi, level gagal.</p>
+        <button class="primary-button" id="closeHowButton" type="button">Mengerti</button>
+      </div>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 128" role="img" aria-label="Rumah panggung desa biru">
+  <ellipse cx="75" cy="119" rx="58" ry="8" fill="#10202d" opacity=".14"/>
+  <rect x="27" y="47" width="96" height="54" rx="4" fill="#4aa5e8"/>
+  <path d="M12 50 75 12l63 38z" fill="#7a4a2e"/>
+  <rect x="61" y="73" width="25" height="28" fill="#5a3b2a"/>
+  <rect x="39" y="63" width="20" height="19" fill="#d7f5ff"/>
+  <rect x="92" y="63" width="20" height="19" fill="#d7f5ff"/>
+  <rect x="37" y="99" width="8" height="22" fill="#5a3b2a"/>
+  <rect x="105" y="99" width="8" height="22" fill="#5a3b2a"/>
+  <rect x="25" y="101" width="100" height="7" fill="#325775"/>
+</svg>
