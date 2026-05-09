@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 112" role="img" aria-label="Rumah desa merah">
-  <ellipse cx="70" cy="103" rx="54" ry="8" fill="#10202d" opacity=".14"/>
-  <rect x="23" y="48" width="94" height="55" rx="4" fill="#f25c68"/>
-  <path d="M11 50 70 15l59 35z" fill="#b6562f"/>
-  <rect x="56" y="73" width="25" height="30" fill="#653f32"/>
-  <rect x="34" y="65" width="22" height="21" fill="#ffe1d8"/>
-  <rect x="86" y="65" width="22" height="21" fill="#ffe1d8"/>
-  <path d="M23 55h94" stroke="#dc4657" stroke-width="7"/>
-</svg>
